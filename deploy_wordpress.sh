@@ -29,7 +29,7 @@ EOF
 # Create WordPress database and user
 mysql -u root -p <<MYSQL_SCRIPT
 CREATE DATABASE wordpress;
-CREATE USER 'wpuser'@'localhost' IDENTIFIED BY 'Pramod@#123';
+CREATE USER 'wpuser'@'localhost' IDENTIFIED BY 'PASSWORD';
 GRANT ALL PRIVILEGES ON wordpress.* TO 'wpuser'@'localhost';
 FLUSH PRIVILEGES;
 EXIT
@@ -107,4 +107,4 @@ ufw allow 'Nginx Full' -y
 apt install certbot python3-certbot-nginx -y
 
 # install SSL/TLS certificates from Let's Encrypt
-certbot --nginx -d linuxtest.hopto.org --email pkapade93@gmail.com
+certbot --nginx -d linuxtest.hopto.org --email your_email_id@gmail.com
