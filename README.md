@@ -54,6 +54,6 @@ The script performs the following actions:
 
 ## Author
 
-This deployment script was created by Pramod Kapade. For any inquiries or issues, please contact pramodkapade06@gmail.com.
+This deployment script was created by Pramod Kapade. For any inquiries or issues, please contact telegram @pramaod06k or LinkedIn:www.linkedin.com/in/pramod-kapade
 
 Feel free to contribute to this script or provide feedback to improve its functionality. Happy deploying!
