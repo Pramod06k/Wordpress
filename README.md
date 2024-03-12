@@ -50,10 +50,10 @@ The script performs the following actions:
 
 - Ensure that the script is executed with appropriate permissions and on a compatible Linux distribution.
 - Replace `www.linuxtest.hopto.org` with your domain name in the Nginx server block configuration.
-- Update the email address `pkapade93@gmail.com` in the SSL certificate installation command with your valid email address.
+- Update the email address `your_email@gmail.com` in the SSL certificate installation command with your valid email address.
 
 ## Author
 
-This deployment script was created by Pramod Kapade. For any inquiries or issues, please contact pkapade93@gmail.com.
+This deployment script was created by Pramod Kapade. For any inquiries or issues, please contact pramodkapade06@gmail.com.
 
 Feel free to contribute to this script or provide feedback to improve its functionality. Happy deploying!
